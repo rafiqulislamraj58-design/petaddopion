@@ -73,7 +73,7 @@ export default function Register() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-100 via-blue-50 to-pink-100 px-4 py-10">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-400 via-blue-500 to-pink-100 px-4 py-10">
       
       <Card className="w-full max-w-md p-8 rounded-3xl shadow-2xl">
         <div className="text-center mb-8">

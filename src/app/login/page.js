@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import Link from "next/link";
 
 import { Button, Input, Card } from "@heroui/react";
-import { FcGoogle } from "react-icons/fc";
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -103,7 +103,7 @@ export default function Login() {
         <Button
           variant="bordered"
           size="lg"
-          className="w-full font-medium"
+          className="w-full font-medium bg-gray-300"
           onClick={handleGoogleLogin}
          
         >
