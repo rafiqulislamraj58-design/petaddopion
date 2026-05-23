@@ -2,6 +2,7 @@ import { Toaster } from 'react-hot-toast'
 import './globals.css'
 import { AuthProvider } from '@/context/AuthContext'
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'Pet Adoption Platform',
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <AuthProvider>
         <Navbar/>
           {children}
+          <Footer />
           <Toaster position="top-right" />
         </AuthProvider>
       </body>
