@@ -1,10 +1,23 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "lh3.googleusercontent.com",
-      "i.ibb.co",
-      "postimg.cc",
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+      },
+      {
+        protocol: 'https',
+        hostname: 'postimg.cc',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
     ],
   },
 };

@@ -26,11 +26,11 @@ export default function Footer() {
               petadopt@gmail.com
             </li>
             <li className="flex items-center gap-2">
-              <MdPhone className="text-green-400 text-lg" />
+              <MdPhone className="text-blue-400 text-lg" />
               +880 1234-567890
             </li>
             <li className="flex items-center gap-2">
-              <MdLocationOn className="text-red-400 text-lg" />
+              <MdLocationOn className="text-blue-400 text-lg" />
               Dhaka, Bangladesh
             </li>
           </ul>
