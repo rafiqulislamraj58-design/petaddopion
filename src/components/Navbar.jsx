@@ -23,8 +23,8 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md px-6 py-3 flex items-center justify-between">
 
-      <Link href="/" className="text-xl font-bold text-blue-600">
-         PetAdopt
+      <Link href="/" className="text-xl font-bold text-pink-600">
+         PetAdopt 
       </Link>
       <div className="flex items-center gap-6">
         <Link href="/" className="hover:text-blue-500">

@@ -1,11 +1,13 @@
-"use client";
-import { Button } from "@heroui/react";
-import Link from "next/link";
+import Banner from '@/components/Banner'
+import React from 'react'
 
-export default function Home() {
+
+const page = () => {
   return (
-   <>
-    <h1>banner</h1>
-   </>
-  );
+    <div>
+      <Banner/>
+    </div>
+  )
 }
+
+export default page
