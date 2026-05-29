@@ -138,13 +138,16 @@ export default function AddPet() {
             </div>
             <Input 
               label="Location" 
-              name="location" 
+              name="location"
+              className="w-full" 
               placeholder="Enter location"
               onChange={handleChange} 
               required />
+              <br/>
             <Input 
             label="Image URL" 
             name="image" 
+            className="w-full"
             placeholder="Enter image URL (imgbb/postimage)"
             onChange={handleChange} 
             required />
